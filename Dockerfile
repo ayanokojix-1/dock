@@ -1,4 +1,4 @@
-FROM quay.io/qasimali9263/suhail-xmd:latest
+FROM node:lts-buster
 
 # Clone the repository
 RUN git clone https://github.com/GlobalTechInfo/SUHAIL-XMD /home/suhail
