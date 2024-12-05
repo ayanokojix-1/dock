@@ -1,7 +1,7 @@
 FROM node:lts-buster
 
 # Clone the repository
-RUN git clone https://github.com/GlobalTechInfo/SUHAIL-XMD /home/suhail
+RUN git clone https://github.com/SuhailTechInfo/suhailmd-2.0 /home/suhail
 
 # Change ownership of the directory to the 'node' user
 RUN chown -R node:node /home/suhail
@@ -11,7 +11,6 @@ USER node
 
 # Set the working directory
 WORKDIR /home/suhail
-
 # Copy the server.js file into the working directory
 COPY server.js .
 
