@@ -1,6 +1,6 @@
 const Command = require('../lib/Command');
 
-async function handleEditCommand(sock, message, args) => {
+async function handleEditCommand(sock, message, args) {
     try {
       // Extract the quoted message information
       const quotedMessageContext = message.message.extendedTextMessage?.contextInfo;
