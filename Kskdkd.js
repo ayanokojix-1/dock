@@ -38,7 +38,7 @@ async function handleEditCommand(sock, message, args) {
     }
 };
 const editCommand = new Command( 'edit',
-                                'edit a mesage',
+                                'edit a message',
                                 handleEditCommand,
   'private',
   'utility',
