@@ -1,4 +1,4 @@
-const {  }
+const { proto, generateWAMessageFromContent } = require('@whiskeysockets/baileys');
 async sendPoll(jid, question, options, pollType = 0) {
   
   const pollMessage = {
